@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Collage Website Design - RAASP GROUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/pogo.png" s></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------- about us content ------>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best university</h1>
+                <p>“Your comfort zone is a place where you keep yourself in a self-illusion and nothing can grow there but your potentiality can grow only when you can think and grow out of that zone.”</p>
+                <a href="https://www.careers360.com/colleges/shri-chhatrapati-shivaji-college-omerga" class="hero-btn red-btn">EXPLORE MORE</a>
+            </div>
+            <div class="about-col">
+                <img src="images/vb.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <!------ Footer ------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Shri Chhatrapati Shivaji College was established in June 1959; it was immediately after the inception of Marathwada University.<br>This was first college in old Osmanabad district to start science faculty. Expensive science faculty was a great
+            difficulty, but our venerable members were well determined to keep it going since the beginning.<br>The college has been named after the great warrior of Maharashtra Chhatrapati Shivaji Maharaj.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/pages/category/Community-College/Shri-Chhatrapati-Shivaji-College-Omerga-263652490357482/" target="_blank">
+                <i class="fa fa-facebook"><br><button>Facebook</button></i>
+            </a>
+        </div>
+        <p><strong>MADE WITH RAASP GROUP</strong></p>
+    </section>
+
+    <!----------JavaScript for Toggle Menu------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        };
+
+
+        let number = [1, 4, 6, 2, 3];
+        number.concat();
+        console.log(number);
+    </script>
+
+</body>
+
+</html>

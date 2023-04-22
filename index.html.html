@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>College Website Design - RAASP GROUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/pogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                    <li><button class="login-btn"><a href="login.html">LOGIN</a></button></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>SHRI CHHATRAPATI SHIVAJI COLLAGE</h1>
+            <p>Making website is now one of the easiest thing in the world.You just need to learn HTML,CSS,<br>Javascript and you are good to go.
+            </p>
+            <br>
+        </div>
+
+    </section>
+
+
+    <!----- campus ----->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Comprehensive Developement Through Education.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/hydrabad.jpg">
+                <div class="layer">
+                    <h3>HYDERABAD</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/pune.jpg">
+                <div class="layer">
+                    <h3>PUNE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/mumbai.jpg">
+                <div class="layer">
+                    <h3>MUMBAI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------ testimonials ------>
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Comprehensive Developement Through Education.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <div>
+                    <p> “Do something now; your future self will thank you for later.”</p>
+                    <img src="images/ritesh.jpg">
+                    <h3>Ritesh Amale</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <p>“Focus on your goal. Don't look in any direction but ahead."</p>
+                    <img src="images/adi.jpg">
+                    <h3>Aditya Mali</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <p>“Keep going.Everything you need will come to you at the perfect time.”</p>
+                    <img src="images/abhi.jpg">
+                    <h3>Abhi Bhalkhede</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <p>“Don’t try to be perfect. Just try to be better than you were yesterday.”</p>
+                    <img src="images/suhas.jpg">
+                    <h3>Suhas Pandhare</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <div>
+                    <p>"Your time is limited, so don't waste it living someone else's life."</p>
+                    <img src="images/pramod.jpg">
+                    <h3>Pramod Jadhav</h3>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!------ Call To Action ------>
+
+    <section class="cta">
+        <h1>Enroll For Our Varios Online Courses<br>From Anywhere</h1>
+    </section>
+
+
+    <!------ Footer ------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Shri Chhatrapati Shivaji College was established in June 1959; it was immediately after the inception of Marathwada University.<br>This was first college in old Osmanabad district to start science faculty. Expensive science faculty was a great
+            difficulty, but our venerable members were well determined to keep it going since the beginning.<br>The college has been named after the great warrior of Maharashtra Chhatrapati Shivaji.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/pages/category/Community-College/Shri-Chhatrapati-Shivaji-College-Omerga-263652490357482/" target="_blank">
+                <i class="fa fa-facebook"><br><button>Facebook</button></i>
+            </a>
+        </div>
+        <p><strong>MADE WITH GANESH SHINDE</strong></p>
+    </section>
+
+
+
+
+    <!----------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
